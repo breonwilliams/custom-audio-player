@@ -1,0 +1,96 @@
+.instruments-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* This ensures spacing between the columns */
+}
+
+.instruments-container section .play_btn {
+    aspect-ratio: 1/1;
+}
+
+.instruments-container section {
+    flex: 1 1 30%; /* Each section will take up roughly one-third of the container width */
+    padding: 12px;
+}
+
+.instruments-container section .instr-title {
+ font-weight: 900;
+ font-size: 18px;
+}
+
+.play_btn {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 350px;
+    cursor: pointer;
+}
+
+.instr-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Additional styling for the "pause" text */
+.pause-label {
+    display: none; /* Hidden by default */
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.sound-instrument-1 {
+    background-color: #FBC60D;
+}
+
+.sound-instrument-2 {
+    background-color: #AEE0E8;
+}
+
+.sound-instrument-3 {
+    background-color: #C5DF94;
+}
+
+.sound-instrument-4 {
+    background-color: #9FD9CC;
+}
+
+.sound-instrument-5 {
+    background-color: #FCD0B1;
+}
+
+.sound-instrument-6 {
+    background-color: #D8D6EC;
+}
+
+.sound-instrument-7 {
+    background-color: #FCD0B1;
+}
+
+.sound-instrument-8 {
+    background-color: #F8D01F;
+}
+
+.sound-instrument-9 {
+    background-color: #5FCADC;
+}
+
+.sound-instrument-10 {
+    background-color: #FEEEBF;
+}
+
+.sound-instrument-11 {
+    background-color: #F8D01F;
+}
+
+.sound-instrument-12 {
+    background-color: #C5DF94;
+}
+
+.sound-instrument-13 {
+    background-color: #FCD0B1;
+}
+
+.sound-instrument-14 {
+    background-color: #F8D01F;
+}
